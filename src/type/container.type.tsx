@@ -9,3 +9,12 @@ export type HeaderPropsType = {
     romanHeaderMessage?: string,
     italizedHeaderMessage?: string,
 }
+
+export type HeroPropsType = {
+    hasThumbnail: boolean,
+    subtitle?: string
+    body?: string
+    romanHeaderMessage?: string,
+    italizedHeaderMessage?: string,
+    thumbnail?: string,
+}

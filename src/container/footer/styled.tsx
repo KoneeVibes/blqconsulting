@@ -7,6 +7,8 @@ export const FooterWrapper = styled(Stack)(({ theme }) => {
             gap: "calc(var(--flex-gap)/2)",
             justifyContent: "space-between",
             padding: "calc(var(--basic-padding)/2)",
+            marginTop: "calc(var(--basic-margin)/2)",
+            borderTop: "1px solid var(--footer-border-color)",
         },
         "& .middle-layer": {
             flexDirection: "column",

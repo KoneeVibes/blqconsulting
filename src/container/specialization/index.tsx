@@ -30,7 +30,7 @@ export const Specialization = () => {
                         color={"var(--light-color)"}
                         whiteSpace={"normal"}
                     >
-                        SPECIALISATION
+                        SPECIALIZATION
                     </Typography>
                 </Box>
                 <Box

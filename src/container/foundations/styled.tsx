@@ -1,16 +1,18 @@
 import { Stack, styled } from "@mui/material";
 
-export const ProblemsWrapper = styled(Stack)(() => {
+export const FoundationsWrapper = styled(Stack)(() => {
     return {
+        gap: "calc(var(--flex-gap)/2)",
+        padding: "calc(var(--basic-padding)/2) 0 var(--basic-padding)",
         "& .title-area": {
-            padding: "0 calc(var(--basic-padding)/2) var(--basic-padding)",
+            padding: "0 calc(var(--basic-padding)/2) calc(var(--basic-padding)/2)",
         },
         "& .carousel .slider": {
             gap: "calc(var(--flex-gap)/2)",
         },
         "& .carousel .slide": {
             flex: 1,
-            "& .problem-stack": {
+            "& .foundation-stack": {
                 height: "100%",
                 gap: "calc(var(--flex-gap)/2)",
                 padding: "calc(var(--basic-padding)/2)",
