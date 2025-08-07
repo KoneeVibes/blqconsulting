@@ -19,11 +19,6 @@ export const HeroWrapper = styled(Stack)(({ theme }) => {
             "& .heading": {
                 width: "85%",
             },
-            "& .thumbnail": {
-                "& img": {
-                    height: "100%",
-                },
-            },
         },
     }
 })

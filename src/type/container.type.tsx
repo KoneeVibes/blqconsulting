@@ -18,3 +18,11 @@ export type HeroPropsType = {
     italizedHeaderMessage?: string,
     thumbnail?: string,
 }
+
+export type ProjectDetailPropsType = {
+    detail: Record<string, any>
+}
+
+export type BlogDetailPropsType = {
+    content: string
+}

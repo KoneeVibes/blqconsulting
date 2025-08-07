@@ -8,15 +8,30 @@ import ITServices from "../asset/image/it-services-solutions.png";
 import provenExpertise from "../asset/icon/proven-expertise-icon.svg";
 import customerCentric from "../asset/icon/customer-centric-icon.svg";
 import globalReachLocalTouch from "../asset/icon/global-reach-local-touch-icon.svg";
-import webSolutionThumbnail from "../asset/image/web-solution-thumbnail.png";
-import UIInterfaceThumbnail from "../asset/image/ui-interface-thumbnail.png";
-import webInterfaceThumbnail from "../asset/image/web-interface-thumbnail.png";
 import teamOne from "../asset/image/team-one.png";
 import teamTwo from "../asset/image/team-two.png";
 import teamThree from "../asset/image/team-three.png";
 import teamFour from "../asset/image/team-four.png";
 import teamFive from "../asset/image/team-five.png";
 import teamSix from "../asset/image/team-six.png";
+import projectOne from "../asset/image/project-one-thumbnail.png";
+import projectTwo from "../asset/image/project-two-thumbnail.png";
+import projectThree from "../asset/image/project-three-thumbnail.png";
+import projectFour from "../asset/image/project-four-thumbnail.png";
+import projectConfiguratDetailThumbnailOne from "../asset/image/project-configurat-detail-thumbnail-one.png";
+import projectConfiguratDetailGalleryOne from "../asset/image/project-configurat-detail-gallery-one.png";
+import projectConfiguratDetailGalleryTwo from "../asset/image/project-configurat-detail-gallery-two.png";
+import projectConfiguratDetailGalleryThree from "../asset/image/project-configurat-detail-gallery-three.png";
+import projectConfiguratDetailGalleryFour from "../asset/image/project-configurat-detail-gallery-four.png";
+import blogThumbnailOne from "../asset/image/blog-thumbnail-one.png";
+import blogThumbnailTwo from "../asset/image/blog-thumbnail-two.png";
+import blogThumbnailThree from "../asset/image/blog-thumbnail-three.png";
+import blogThumbnailFour from "../asset/image/blog-thumbnail-four.png";
+import blogThumbnailFive from "../asset/image/blog-thumbnail-five.png";
+import blogThumbnailSix from "../asset/image/blog-thumbnail-six.png";
+import blogThumbnailSeven from "../asset/image/blog-thumbnail-seven.png";
+import blogThumbnailEight from "../asset/image/blog-thumbnail-eight.png";
+import blogThumbnailNine from "../asset/image/blog-thumbnail-nine.png";
 
 export const navLinks = [
     {
@@ -137,27 +152,6 @@ export const testimonials = [
     },
 ];
 
-export const blogArticles = [
-    {
-        category: "Web Solution",
-        title: "Make a better website solution for your product",
-        thumbnail: webSolutionThumbnail,
-        url: "/"
-    },
-    {
-        category: "UI Interface",
-        title: "The Science of Colour Contrast — An Expert Designer’s Guide",
-        thumbnail: UIInterfaceThumbnail,
-        url: "/"
-    },
-    {
-        category: "Web Interface",
-        title: "SEO Made Simple: A Step by Step Guide for 2020",
-        thumbnail: webInterfaceThumbnail,
-        url: "/"
-    },
-];
-
 export const prospectiveProblems = [
     {
         title: "You will give your customers the ability to configure products",
@@ -255,5 +249,337 @@ export const teamGallery = [
     {
         title: "Member Six",
         url: teamSix
+    },
+];
+
+export const deliveryValues = {
+    "Individualize": "Every customer is different and seeks individual solutions. Meet the needs and ideas of customers interested in your products.",
+    "Complexity": "Even simple products can have multiple configurations. Give customers the ability to configure a product based on multiple options, features and parameters.",
+    "Visualization": "One picture is worth more than 1,000 words. Showcase the features of your product with 2D and 3D visualization."
+};
+
+export const projects = [
+    {
+        subtitle: "Unia Machines",
+        tags: ["CRM", "B2B "],
+        url: "/",
+        thumbnail: projectOne,
+        title: "Integrated B2B / B2C platform",
+        description: "We’re a group of passionate individuals, strategists, and builders—united by a shared vision and a drive to create purposeful, human-centered experiences. Each of us brings a unique voice to the table, and together, we make it all happen.",
+        items: ["Organising the sale of machinery", "400 dealers and outlets in 52 countries", "Presentation of over 20,000 complex products"],
+        details: [
+            {
+                subtitle: "About the project",
+                subHeading: "Integrated B2B / B2C platform",
+                body1: "Integrated B2B / B2C offers our exclusive cloud-based solution that facilitates the configuration of complex products and services. It empowers customers to personalize their orders by selecting specific details, exploring available options, and enables the sales department to deliver tailor-made solutions that meet their unique needs.",
+                body2: "Configuration, which involves enabling the selection, collation, and pricing of personalized goods and services, has become an integral aspect of modern business reality. Industries such as manufacturing, machinery, and agriculture exemplify the significance of product configuration as a crucial process that creates value in the customer-supplier relationship. These industries serve as prime examples where product configuration plays a vital role in facilitating value creation between customers and suppliers.",
+                thumbnail: projectConfiguratDetailThumbnailOne,
+            },
+            {
+                subtitle: "At the service of our clients",
+                subHeading: "At the service of our clients",
+                body1: "Every customer is different and seeks individual solutions. By providing the ability to configure the products and services offered, users of the CONFIGURAT.IO system can meet the needs and ideas of customers interested in their offerings.",
+                body2: "Even simple products can have multiple configurations. That's why we help our customers create the ability to configure a product based on multiple options, features and parameters, so that their customers can make quick and appropriate purchasing decisions.",
+                thumbnail: null,
+            },
+        ],
+        gallery: [projectConfiguratDetailGalleryOne, projectConfiguratDetailGalleryTwo, projectConfiguratDetailGalleryThree, projectConfiguratDetailGalleryFour]
+    },
+    {
+        subtitle: "CONFIGURAT.IO",
+        tags: ["CRM", "B2B "],
+        url: "/",
+        thumbnail: projectTwo,
+        title: "Proprietary configuration system",
+        description: "We’re a group of passionate individuals, strategists, and builders—united by a shared vision and a drive to create purposeful, human-centered experiences. Each of us brings a unique voice to the table, and together, we make it all happen.",
+        items: ["Innovative service offered in the SaaS model", "Increase sales by automating quotations", "Visualisation of complex product features"],
+        details: [
+            {
+                subtitle: "About the project",
+                subHeading: "Integrated B2B / B2C platform",
+                body1: "Integrated B2B / B2C offers our exclusive cloud-based solution that facilitates the configuration of complex products and services. It empowers customers to personalize their orders by selecting specific details, exploring available options, and enables the sales department to deliver tailor-made solutions that meet their unique needs.",
+                body2: "Configuration, which involves enabling the selection, collation, and pricing of personalized goods and services, has become an integral aspect of modern business reality. Industries such as manufacturing, machinery, and agriculture exemplify the significance of product configuration as a crucial process that creates value in the customer-supplier relationship. These industries serve as prime examples where product configuration plays a vital role in facilitating value creation between customers and suppliers.",
+                thumbnail: projectConfiguratDetailThumbnailOne,
+            },
+            {
+                subtitle: "At the service of our clients",
+                subHeading: "At the service of our clients",
+                body1: "Every customer is different and seeks individual solutions. By providing the ability to configure the products and services offered, users of the CONFIGURAT.IO system can meet the needs and ideas of customers interested in their offerings.",
+                body2: "Even simple products can have multiple configurations. That's why we help our customers create the ability to configure a product based on multiple options, features and parameters, so that their customers can make quick and appropriate purchasing decisions.",
+                thumbnail: null,
+            },
+        ],
+        gallery: [projectConfiguratDetailGalleryOne, projectConfiguratDetailGalleryTwo, projectConfiguratDetailGalleryThree, projectConfiguratDetailGalleryFour]
+    },
+    {
+        subtitle: "Unia Machines",
+        tags: ["CRM", "B2B "],
+        url: "/",
+        thumbnail: projectThree,
+        title: "Integrated B2B / B2C platform",
+        description: "We’re a group of passionate individuals, strategists, and builders—united by a shared vision and a drive to create purposeful, human-centered experiences. Each of us brings a unique voice to the table, and together, we make it all happen.",
+        items: ["Organising the sale of machinery", "400 dealers and outlets in 52 countries", "Presentation of over 20,000 complex products"],
+        details: [
+            {
+                subtitle: "About the project",
+                subHeading: "Integrated B2B / B2C platform",
+                body1: "Integrated B2B / B2C offers our exclusive cloud-based solution that facilitates the configuration of complex products and services. It empowers customers to personalize their orders by selecting specific details, exploring available options, and enables the sales department to deliver tailor-made solutions that meet their unique needs.",
+                body2: "Configuration, which involves enabling the selection, collation, and pricing of personalized goods and services, has become an integral aspect of modern business reality. Industries such as manufacturing, machinery, and agriculture exemplify the significance of product configuration as a crucial process that creates value in the customer-supplier relationship. These industries serve as prime examples where product configuration plays a vital role in facilitating value creation between customers and suppliers.",
+                thumbnail: projectConfiguratDetailThumbnailOne,
+            },
+            {
+                subtitle: "At the service of our clients",
+                subHeading: "At the service of our clients",
+                body1: "Every customer is different and seeks individual solutions. By providing the ability to configure the products and services offered, users of the CONFIGURAT.IO system can meet the needs and ideas of customers interested in their offerings.",
+                body2: "Even simple products can have multiple configurations. That's why we help our customers create the ability to configure a product based on multiple options, features and parameters, so that their customers can make quick and appropriate purchasing decisions.",
+                thumbnail: null,
+            },
+        ],
+        gallery: [projectConfiguratDetailGalleryOne, projectConfiguratDetailGalleryTwo, projectConfiguratDetailGalleryThree, projectConfiguratDetailGalleryFour]
+    },
+    {
+        subtitle: "CONFIGURAT.IO",
+        tags: ["CRM", "B2B "],
+        url: "/",
+        thumbnail: projectFour,
+        title: "Proprietary configuration system",
+        description: "We’re a group of passionate individuals, strategists, and builders—united by a shared vision and a drive to create purposeful, human-centered experiences. Each of us brings a unique voice to the table, and together, we make it all happen.",
+        items: ["Innovative service offered in the SaaS model", "Increase sales by automating quotations", "Visualisation of complex product features"],
+        details: [
+            {
+                subtitle: "About the project",
+                subHeading: "Integrated B2B / B2C platform",
+                body1: "Integrated B2B / B2C offers our exclusive cloud-based solution that facilitates the configuration of complex products and services. It empowers customers to personalize their orders by selecting specific details, exploring available options, and enables the sales department to deliver tailor-made solutions that meet their unique needs.",
+                body2: "Configuration, which involves enabling the selection, collation, and pricing of personalized goods and services, has become an integral aspect of modern business reality. Industries such as manufacturing, machinery, and agriculture exemplify the significance of product configuration as a crucial process that creates value in the customer-supplier relationship. These industries serve as prime examples where product configuration plays a vital role in facilitating value creation between customers and suppliers.",
+                thumbnail: projectConfiguratDetailThumbnailOne,
+            },
+            {
+                subtitle: "At the service of our clients",
+                subHeading: "At the service of our clients",
+                body1: "Every customer is different and seeks individual solutions. By providing the ability to configure the products and services offered, users of the CONFIGURAT.IO system can meet the needs and ideas of customers interested in their offerings.",
+                body2: "Even simple products can have multiple configurations. That's why we help our customers create the ability to configure a product based on multiple options, features and parameters, so that their customers can make quick and appropriate purchasing decisions.",
+                thumbnail: null,
+            },
+        ],
+        gallery: [projectConfiguratDetailGalleryOne, projectConfiguratDetailGalleryTwo, projectConfiguratDetailGalleryThree, projectConfiguratDetailGalleryFour]
+    },
+];
+
+export const blogs = [
+    {
+        category: "Web Solution",
+        url: `/blog/${0}`,
+        title: "The Emerging Manager’s Guide: How to plan your Fund I",
+        date: "Aug 20, 2024",
+        length: "4 min read",
+        thumbnail: blogThumbnailOne,
+        brief: "We are not the first. We certainly weren't the ones who discovered how much sailing brings people together, but we can absolutely subscribe to that! It's an amazing community experience! It's also a lesson in professionalism for any boss.",
+        content: `
+        Emerging Managers are typically considered those who have launched less than threefunds or are launching a fund under $200M, with limited prior experience managing their own VC fund but oftentimes bring fresh perspectives and innovative strategies. In 2024, they make up approximately 14%* of the Venture Capital market.
+
+        Historically, becoming a solo General Partner (GP) came with overwhelming hurdlesv considering the complexity of operating a fund and the associated cost. In 2019, AngelList brought a new software to market and paired with Belltower’s, our native fund admin,services created an end-to-end offering that helped democratize venture capital investing by making it easier for small funds to launch and scale. Today, AngelList and Belltower support hundreds of fund managers with over $16B of GP fund assets under management.
+
+
+        As a member of AngelList's Growth Team, I've spent the last four years speaking with over 1,000 emerging or aspiring venture fund managers, helping them find the best solutions for forming and managing their venture capital funds. From starting their investor journey by launching their first SPVs to oversubscribed funds backed by prominent LPs, AngelList has had the opportunity to partner with them through each stage.
+
+        Even if managers have prior experience working at a large venture firm, raising their first fund comes with an array of challenges and anxieties that they may not yet be aware of. A question I hear frequently from aspiring managers is,
+
+        To help more Emerging Managers, we decided to consolidate the best practices we’ve seen over the years and create a comprehensive guide, “
+
+
+        While tech platforms have made starting a fund easier than ever, it remains a nuanced process. GPs must consider portfolio construction, capital call schedules, check sizes, and follow-on investing, all without knowing the exact size their fund will close at. AngelList’s end-to-end solution, pairing our software with Belltower’s fund admin services, provides the necessary services for a fund under one roof.
+        `
+    },
+    {
+        category: "UI Interface",
+        url: `/blog/${1}`,
+        title: "Q2 Releases & Product Updates",
+        date: "Aug 8, 2024",
+        length: "7 min read",
+        thumbnail: blogThumbnailTwo,
+        brief: "We are not the first. We certainly weren't the ones who discovered how much sailing brings people together, but we can absolutely subscribe to that! It's an amazing community experience! It's also a lesson in professionalism for any boss.",
+        content: `
+        Emerging Managers are typically considered those who have launched less than threefunds or are launching a fund under $200M, with limited prior experience managing their own VC fund but oftentimes bring fresh perspectives and innovative strategies. In 2024, they make up approximately 14%* of the Venture Capital market.
+
+        Historically, becoming a solo General Partner (GP) came with overwhelming hurdlesv considering the complexity of operating a fund and the associated cost. In 2019, AngelList brought a new software to market and paired with Belltower’s, our native fund admin,services created an end-to-end offering that helped democratize venture capital investing by making it easier for small funds to launch and scale. Today, AngelList and Belltower support hundreds of fund managers with over $16B of GP fund assets under management.
+
+
+        As a member of AngelList's Growth Team, I've spent the last four years speaking with over 1,000 emerging or aspiring venture fund managers, helping them find the best solutions for forming and managing their venture capital funds. From starting their investor journey by launching their first SPVs to oversubscribed funds backed by prominent LPs, AngelList has had the opportunity to partner with them through each stage.
+
+        Even if managers have prior experience working at a large venture firm, raising their first fund comes with an array of challenges and anxieties that they may not yet be aware of. A question I hear frequently from aspiring managers is,
+
+        To help more Emerging Managers, we decided to consolidate the best practices we’ve seen over the years and create a comprehensive guide, “
+
+
+        While tech platforms have made starting a fund easier than ever, it remains a nuanced process. GPs must consider portfolio construction, capital call schedules, check sizes, and follow-on investing, all without knowing the exact size their fund will close at. AngelList’s end-to-end solution, pairing our software with Belltower’s fund admin services, provides the necessary services for a fund under one roof.
+        `
+    },
+    {
+        category: "Web Interface",
+        url: `/blog/${2}`,
+        title: "The Emerging Manager’s Guide: How to plan your Fund I",
+        date: "Aug 20, 2024",
+        length: "4 min read",
+        thumbnail: blogThumbnailThree,
+        brief: "We are not the first. We certainly weren't the ones who discovered how much sailing brings people together, but we can absolutely subscribe to that! It's an amazing community experience! It's also a lesson in professionalism for any boss.",
+        content: `
+        Emerging Managers are typically considered those who have launched less than threefunds or are launching a fund under $200M, with limited prior experience managing their own VC fund but oftentimes bring fresh perspectives and innovative strategies. In 2024, they make up approximately 14%* of the Venture Capital market.
+
+        Historically, becoming a solo General Partner (GP) came with overwhelming hurdlesv considering the complexity of operating a fund and the associated cost. In 2019, AngelList brought a new software to market and paired with Belltower’s, our native fund admin,services created an end-to-end offering that helped democratize venture capital investing by making it easier for small funds to launch and scale. Today, AngelList and Belltower support hundreds of fund managers with over $16B of GP fund assets under management.
+
+
+        As a member of AngelList's Growth Team, I've spent the last four years speaking with over 1,000 emerging or aspiring venture fund managers, helping them find the best solutions for forming and managing their venture capital funds. From starting their investor journey by launching their first SPVs to oversubscribed funds backed by prominent LPs, AngelList has had the opportunity to partner with them through each stage.
+
+        Even if managers have prior experience working at a large venture firm, raising their first fund comes with an array of challenges and anxieties that they may not yet be aware of. A question I hear frequently from aspiring managers is,
+
+        To help more Emerging Managers, we decided to consolidate the best practices we’ve seen over the years and create a comprehensive guide, “
+
+
+        While tech platforms have made starting a fund easier than ever, it remains a nuanced process. GPs must consider portfolio construction, capital call schedules, check sizes, and follow-on investing, all without knowing the exact size their fund will close at. AngelList’s end-to-end solution, pairing our software with Belltower’s fund admin services, provides the necessary services for a fund under one roof.
+        `
+    },
+    {
+        category: "Web Solution",
+        url: `/blog/${3}`,
+        title: "Q2 Releases & Product Updates",
+        date: "Aug 8, 2024",
+        length: "7 min read",
+        thumbnail: blogThumbnailFour,
+        brief: "We are not the first. We certainly weren't the ones who discovered how much sailing brings people together, but we can absolutely subscribe to that! It's an amazing community experience! It's also a lesson in professionalism for any boss.",
+        content: `
+        Emerging Managers are typically considered those who have launched less than threefunds or are launching a fund under $200M, with limited prior experience managing their own VC fund but oftentimes bring fresh perspectives and innovative strategies. In 2024, they make up approximately 14%* of the Venture Capital market.
+
+        Historically, becoming a solo General Partner (GP) came with overwhelming hurdlesv considering the complexity of operating a fund and the associated cost. In 2019, AngelList brought a new software to market and paired with Belltower’s, our native fund admin,services created an end-to-end offering that helped democratize venture capital investing by making it easier for small funds to launch and scale. Today, AngelList and Belltower support hundreds of fund managers with over $16B of GP fund assets under management.
+
+
+        As a member of AngelList's Growth Team, I've spent the last four years speaking with over 1,000 emerging or aspiring venture fund managers, helping them find the best solutions for forming and managing their venture capital funds. From starting their investor journey by launching their first SPVs to oversubscribed funds backed by prominent LPs, AngelList has had the opportunity to partner with them through each stage.
+
+        Even if managers have prior experience working at a large venture firm, raising their first fund comes with an array of challenges and anxieties that they may not yet be aware of. A question I hear frequently from aspiring managers is,
+
+        To help more Emerging Managers, we decided to consolidate the best practices we’ve seen over the years and create a comprehensive guide, “
+
+
+        While tech platforms have made starting a fund easier than ever, it remains a nuanced process. GPs must consider portfolio construction, capital call schedules, check sizes, and follow-on investing, all without knowing the exact size their fund will close at. AngelList’s end-to-end solution, pairing our software with Belltower’s fund admin services, provides the necessary services for a fund under one roof.
+        `
+    },
+    {
+        category: "UI Interface",
+        url: `/blog/${4}`,
+        title: "The Emerging Manager’s Guide: How to plan your Fund I",
+        date: "Aug 20, 2024",
+        length: "4 min read",
+        thumbnail: blogThumbnailFive,
+        brief: "We are not the first. We certainly weren't the ones who discovered how much sailing brings people together, but we can absolutely subscribe to that! It's an amazing community experience! It's also a lesson in professionalism for any boss.",
+        content: `
+        Emerging Managers are typically considered those who have launched less than threefunds or are launching a fund under $200M, with limited prior experience managing their own VC fund but oftentimes bring fresh perspectives and innovative strategies. In 2024, they make up approximately 14%* of the Venture Capital market.
+
+        Historically, becoming a solo General Partner (GP) came with overwhelming hurdlesv considering the complexity of operating a fund and the associated cost. In 2019, AngelList brought a new software to market and paired with Belltower’s, our native fund admin,services created an end-to-end offering that helped democratize venture capital investing by making it easier for small funds to launch and scale. Today, AngelList and Belltower support hundreds of fund managers with over $16B of GP fund assets under management.
+
+
+        As a member of AngelList's Growth Team, I've spent the last four years speaking with over 1,000 emerging or aspiring venture fund managers, helping them find the best solutions for forming and managing their venture capital funds. From starting their investor journey by launching their first SPVs to oversubscribed funds backed by prominent LPs, AngelList has had the opportunity to partner with them through each stage.
+
+        Even if managers have prior experience working at a large venture firm, raising their first fund comes with an array of challenges and anxieties that they may not yet be aware of. A question I hear frequently from aspiring managers is,
+
+        To help more Emerging Managers, we decided to consolidate the best practices we’ve seen over the years and create a comprehensive guide, “
+
+
+        While tech platforms have made starting a fund easier than ever, it remains a nuanced process. GPs must consider portfolio construction, capital call schedules, check sizes, and follow-on investing, all without knowing the exact size their fund will close at. AngelList’s end-to-end solution, pairing our software with Belltower’s fund admin services, provides the necessary services for a fund under one roof.
+        `
+    },
+    {
+        category: "Web Interface",
+        url: `/blog/${5}`,
+        title: "Q2 Releases & Product Updates",
+        date: "Aug 8, 2024",
+        length: "7 min read",
+        thumbnail: blogThumbnailSix,
+        brief: "We are not the first. We certainly weren't the ones who discovered how much sailing brings people together, but we can absolutely subscribe to that! It's an amazing community experience! It's also a lesson in professionalism for any boss.",
+        content: `
+        Emerging Managers are typically considered those who have launched less than threefunds or are launching a fund under $200M, with limited prior experience managing their own VC fund but oftentimes bring fresh perspectives and innovative strategies. In 2024, they make up approximately 14%* of the Venture Capital market.
+
+        Historically, becoming a solo General Partner (GP) came with overwhelming hurdlesv considering the complexity of operating a fund and the associated cost. In 2019, AngelList brought a new software to market and paired with Belltower’s, our native fund admin,services created an end-to-end offering that helped democratize venture capital investing by making it easier for small funds to launch and scale. Today, AngelList and Belltower support hundreds of fund managers with over $16B of GP fund assets under management.
+
+
+        As a member of AngelList's Growth Team, I've spent the last four years speaking with over 1,000 emerging or aspiring venture fund managers, helping them find the best solutions for forming and managing their venture capital funds. From starting their investor journey by launching their first SPVs to oversubscribed funds backed by prominent LPs, AngelList has had the opportunity to partner with them through each stage.
+
+        Even if managers have prior experience working at a large venture firm, raising their first fund comes with an array of challenges and anxieties that they may not yet be aware of. A question I hear frequently from aspiring managers is,
+
+        To help more Emerging Managers, we decided to consolidate the best practices we’ve seen over the years and create a comprehensive guide, “
+
+
+        While tech platforms have made starting a fund easier than ever, it remains a nuanced process. GPs must consider portfolio construction, capital call schedules, check sizes, and follow-on investing, all without knowing the exact size their fund will close at. AngelList’s end-to-end solution, pairing our software with Belltower’s fund admin services, provides the necessary services for a fund under one roof.
+        `
+    },
+    {
+        category: "Web Solution",
+        url: `/blog/${6}`,
+        title: "The Emerging Manager’s Guide: How to plan your Fund I",
+        date: "Aug 20, 2024",
+        length: "4 min read",
+        thumbnail: blogThumbnailSeven,
+        brief: "We are not the first. We certainly weren't the ones who discovered how much sailing brings people together, but we can absolutely subscribe to that! It's an amazing community experience! It's also a lesson in professionalism for any boss.",
+        content: `
+        Emerging Managers are typically considered those who have launched less than threefunds or are launching a fund under $200M, with limited prior experience managing their own VC fund but oftentimes bring fresh perspectives and innovative strategies. In 2024, they make up approximately 14%* of the Venture Capital market.
+
+        Historically, becoming a solo General Partner (GP) came with overwhelming hurdlesv considering the complexity of operating a fund and the associated cost. In 2019, AngelList brought a new software to market and paired with Belltower’s, our native fund admin,services created an end-to-end offering that helped democratize venture capital investing by making it easier for small funds to launch and scale. Today, AngelList and Belltower support hundreds of fund managers with over $16B of GP fund assets under management.
+
+
+        As a member of AngelList's Growth Team, I've spent the last four years speaking with over 1,000 emerging or aspiring venture fund managers, helping them find the best solutions for forming and managing their venture capital funds. From starting their investor journey by launching their first SPVs to oversubscribed funds backed by prominent LPs, AngelList has had the opportunity to partner with them through each stage.
+
+        Even if managers have prior experience working at a large venture firm, raising their first fund comes with an array of challenges and anxieties that they may not yet be aware of. A question I hear frequently from aspiring managers is,
+
+        To help more Emerging Managers, we decided to consolidate the best practices we’ve seen over the years and create a comprehensive guide, “
+
+
+        While tech platforms have made starting a fund easier than ever, it remains a nuanced process. GPs must consider portfolio construction, capital call schedules, check sizes, and follow-on investing, all without knowing the exact size their fund will close at. AngelList’s end-to-end solution, pairing our software with Belltower’s fund admin services, provides the necessary services for a fund under one roof.
+        `
+    },
+    {
+        category: "Web Solution",
+        url: `/blog/${7}`,
+        title: "Q2 Releases & Product Updates",
+        date: "Aug 8, 2024",
+        length: "7 min read",
+        thumbnail: blogThumbnailEight,
+        brief: "We are not the first. We certainly weren't the ones who discovered how much sailing brings people together, but we can absolutely subscribe to that! It's an amazing community experience! It's also a lesson in professionalism for any boss.",
+        content: `
+        Emerging Managers are typically considered those who have launched less than threefunds or are launching a fund under $200M, with limited prior experience managing their own VC fund but oftentimes bring fresh perspectives and innovative strategies. In 2024, they make up approximately 14%* of the Venture Capital market.
+
+        Historically, becoming a solo General Partner (GP) came with overwhelming hurdlesv considering the complexity of operating a fund and the associated cost. In 2019, AngelList brought a new software to market and paired with Belltower’s, our native fund admin,services created an end-to-end offering that helped democratize venture capital investing by making it easier for small funds to launch and scale. Today, AngelList and Belltower support hundreds of fund managers with over $16B of GP fund assets under management.
+
+
+        As a member of AngelList's Growth Team, I've spent the last four years speaking with over 1,000 emerging or aspiring venture fund managers, helping them find the best solutions for forming and managing their venture capital funds. From starting their investor journey by launching their first SPVs to oversubscribed funds backed by prominent LPs, AngelList has had the opportunity to partner with them through each stage.
+
+        Even if managers have prior experience working at a large venture firm, raising their first fund comes with an array of challenges and anxieties that they may not yet be aware of. A question I hear frequently from aspiring managers is,
+
+        To help more Emerging Managers, we decided to consolidate the best practices we’ve seen over the years and create a comprehensive guide, “
+
+
+        While tech platforms have made starting a fund easier than ever, it remains a nuanced process. GPs must consider portfolio construction, capital call schedules, check sizes, and follow-on investing, all without knowing the exact size their fund will close at. AngelList’s end-to-end solution, pairing our software with Belltower’s fund admin services, provides the necessary services for a fund under one roof.
+        `
+    },
+    {
+        category: "UI Interface",
+        url: `/blog/${8}`,
+        title: "The Emerging Manager’s Guide: How to plan your Fund I",
+        date: "Aug 20, 2024",
+        length: "4 min read",
+        thumbnail: blogThumbnailNine,
+        brief: "We are not the first. We certainly weren't the ones who discovered how much sailing brings people together, but we can absolutely subscribe to that! It's an amazing community experience! It's also a lesson in professionalism for any boss.",
+        content: `
+        Emerging Managers are typically considered those who have launched less than threefunds or are launching a fund under $200M, with limited prior experience managing their own VC fund but oftentimes bring fresh perspectives and innovative strategies. In 2024, they make up approximately 14%* of the Venture Capital market.
+
+        Historically, becoming a solo General Partner (GP) came with overwhelming hurdlesv considering the complexity of operating a fund and the associated cost. In 2019, AngelList brought a new software to market and paired with Belltower’s, our native fund admin,services created an end-to-end offering that helped democratize venture capital investing by making it easier for small funds to launch and scale. Today, AngelList and Belltower support hundreds of fund managers with over $16B of GP fund assets under management.
+
+
+        As a member of AngelList's Growth Team, I've spent the last four years speaking with over 1,000 emerging or aspiring venture fund managers, helping them find the best solutions for forming and managing their venture capital funds. From starting their investor journey by launching their first SPVs to oversubscribed funds backed by prominent LPs, AngelList has had the opportunity to partner with them through each stage.
+
+        Even if managers have prior experience working at a large venture firm, raising their first fund comes with an array of challenges and anxieties that they may not yet be aware of. A question I hear frequently from aspiring managers is,
+
+        To help more Emerging Managers, we decided to consolidate the best practices we’ve seen over the years and create a comprehensive guide, “
+
+
+        While tech platforms have made starting a fund easier than ever, it remains a nuanced process. GPs must consider portfolio construction, capital call schedules, check sizes, and follow-on investing, all without knowing the exact size their fund will close at. AngelList’s end-to-end solution, pairing our software with Belltower’s fund admin services, provides the necessary services for a fund under one roof.
+        `
     },
 ];

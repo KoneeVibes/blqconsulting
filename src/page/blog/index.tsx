@@ -1,3 +1,4 @@
+import { Blogs } from "../../container/blogs";
 import { Hero } from "../../container/hero";
 import { AppLayout } from "../../container/layout";
 import { BlogWrapper } from "./styled";
@@ -11,6 +12,7 @@ export const Blog = () => {
                     romanHeaderMessage="We share knowledge,"
                     italizedHeaderMessage="experience and passion"
                 />
+                <Blogs />
             </BlogWrapper>
         </AppLayout>
     )

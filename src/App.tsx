@@ -1,11 +1,13 @@
-import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import './App.css';
+import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import { Home } from './page/home';
 import { About } from './page/about';
 import { Solution } from './page/solution';
 import { Project } from './page/project';
 import { Team } from './page/team';
 import { Blog } from './page/blog';
+import { ProjectDetailPage } from './page/projectdetail';
+import { BlogDetailPage } from './page/blogdetail';
 
 function App() {
   return (
@@ -15,6 +17,8 @@ function App() {
         <Route path='/about' element={<About />} />
         <Route path='/solution' element={<Solution />} />
         <Route path='/project' element={<Project />} />
+        <Route path='/project/:id' element={<ProjectDetailPage />} />
+        <Route path='/blog/:id' element={<BlogDetailPage />} />
         <Route path='/team' element={<Team />} />
         <Route path='/blog' element={<Blog />} />
       </Routes>

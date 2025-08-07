@@ -1,6 +1,6 @@
 import { Box, Card, CardActions, CardContent, CardMedia, Stack, Typography } from "@mui/material";
 import { LeadBlogsWrapper } from "./styled";
-import { blogArticles } from "../../config/static";
+import { blogs } from "../../config/static";
 import { BaseButton } from "../../component/button/styled";
 import ArrowForwardIcon from '@mui/icons-material/ArrowForward';
 import { useNavigate } from "react-router-dom";
@@ -8,9 +8,9 @@ import { useNavigate } from "react-router-dom";
 export const LeadBlogs = () => {
     const navigate = useNavigate();
 
-    const handleNavigateToBlog = (e: React.MouseEvent<HTMLButtonElement, MouseEvent>) => {
+    const handleNavigateToBlog = (e: React.MouseEvent<HTMLButtonElement, MouseEvent>, index: number) => {
         e.preventDefault();
-        return navigate("/");
+        return navigate(`/blog/${index}`);
     };
 
     return (
@@ -44,7 +44,7 @@ export const LeadBlogs = () => {
             <Stack
                 className="blog-cards"
             >
-                {blogArticles?.map((article, index) => {
+                {blogs?.slice(0, 3).map((article, index) => {
                     return (
                         <Card
                             key={index}
@@ -93,7 +93,7 @@ export const LeadBlogs = () => {
                                     fontsize="16px"
                                     border="none"
                                     endIcon={<ArrowForwardIcon />}
-                                    onClick={handleNavigateToBlog}
+                                    onClick={(e) => handleNavigateToBlog(e, index)}
                                     padding="calc(var(--basic-padding)/9.5) 0"
                                 >
                                     <Typography
