@@ -1,28 +1,35 @@
 export type AppLayoutPropsType = {
-    children: React.ReactNode,
-}
+	children: React.ReactNode;
+};
 
 export type HeaderPropsType = {
-    isCarousel: boolean,
-    headerHeight?: string
-    headerImages: string[],
-    romanHeaderMessage?: string,
-    italizedHeaderMessage?: string,
-}
+	isCarousel: boolean;
+	headerHeight?: string;
+	headerImages: string[];
+	romanHeaderMessage?: string;
+	italizedHeaderMessage?: string;
+	headerBody?: string;
+	headerCTA?: React.ReactNode;
+};
 
 export type HeroPropsType = {
-    hasThumbnail: boolean,
-    subtitle?: string
-    body?: string
-    romanHeaderMessage?: string,
-    italizedHeaderMessage?: string,
-    thumbnail?: string,
-}
+	hasThumbnail: boolean;
+	subtitle?: string;
+	body?: string;
+	romanHeaderMessage?: string;
+	italizedHeaderMessage?: string;
+	thumbnail?: string;
+};
 
 export type ProjectDetailPropsType = {
-    detail: Record<string, any>
-}
+	detail: Record<string, any>;
+};
 
 export type BlogDetailPropsType = {
-    content: string
-}
+	content: string;
+};
+
+export type SetApartPropsType = {
+	keyDifferential: string;
+	otherDifferentials?: Record<string, any>[];
+};

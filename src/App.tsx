@@ -8,6 +8,7 @@ import { Team } from './page/team';
 import { Blog } from './page/blog';
 import { ProjectDetailPage } from './page/projectdetail';
 import { BlogDetailPage } from './page/blogdetail';
+import { RealEstate } from './page/realestate';
 
 function App() {
   return (
@@ -21,6 +22,7 @@ function App() {
         <Route path='/blog/:id' element={<BlogDetailPage />} />
         <Route path='/team' element={<Team />} />
         <Route path='/blog' element={<Blog />} />
+        <Route path='/real-estate' element={<RealEstate />} />
       </Routes>
     </BrowserRouter>
   );
