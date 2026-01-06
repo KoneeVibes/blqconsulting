@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.3bf02c6e.css",
-    "main.js": "/static/js/main.97a298a1.js",
+    "main.js": "/static/js/main.50c33d07.js",
     "static/media/home-header.png": "/static/media/home-header.69c14e19f446a04688fa.png",
     "static/media/solution-header.png": "/static/media/solution-header.c4031e365492c75fb952.png",
     "static/media/real-estate-header.png": "/static/media/real-estate-header.e7b865076cb4c7a39578.png",
@@ -20,23 +20,15 @@
     "static/media/property-advisory-and-consulting-thumbnail.png": "/static/media/property-advisory-and-consulting-thumbnail.97cc4ec45a86a694e0f6.png",
     "static/media/project-two-thumbnail.png": "/static/media/project-two-thumbnail.e16e60bfcbb4a076ad40.png",
     "static/media/project-three-thumbnail.png": "/static/media/project-three-thumbnail.8490926bb34f2aa81148.png",
-    "static/media/blog-thumbnail-six.png": "/static/media/blog-thumbnail-six.15b801d4714a950038b2.png",
     "static/media/project-configurat-detail-gallery-four.png": "/static/media/project-configurat-detail-gallery-four.cad0de84a77b16f478ed.png",
-    "static/media/blog-thumbnail-five.png": "/static/media/blog-thumbnail-five.a08e91ae86cdc7e61bda.png",
     "static/media/team-six.png": "/static/media/team-six.41aefbb1fa39e9b44d38.png",
-    "static/media/blog-thumbnail-three.png": "/static/media/blog-thumbnail-three.3a33f68e95c6c824123c.png",
     "static/media/project-one-thumbnail.png": "/static/media/project-one-thumbnail.84b82c319035c87db931.png",
-    "static/media/blog-thumbnail-one.png": "/static/media/blog-thumbnail-one.ce527b9259f8fd1c5896.png",
-    "static/media/blog-thumbnail-seven.png": "/static/media/blog-thumbnail-seven.bb2b90f0dbc581d42cd4.png",
     "static/media/it-services-solutions.png": "/static/media/it-services-solutions.d81cfb6be9687c2ac69f.png",
-    "static/media/blog-thumbnail-two.png": "/static/media/blog-thumbnail-two.1b92a0a4940f7b78ba55.png",
     "static/media/project-configurat-detail-gallery-one.png": "/static/media/project-configurat-detail-gallery-one.2b2179090edc935625fd.png",
     "static/media/project-configurat-detail-gallery-three.png": "/static/media/project-configurat-detail-gallery-three.1c4322456935a4f64fc6.png",
     "static/media/project-configurat-detail-gallery-two.png": "/static/media/project-configurat-detail-gallery-two.58412e771cc308b14581.png",
     "static/media/logo-white-text-variant.svg": "/static/media/logo-white-text-variant.3205e25e15188f2915904e12883bf9e9.svg",
     "static/media/team-one.png": "/static/media/team-one.8c29fbf6d52676ba823c.png",
-    "static/media/blog-thumbnail-nine.png": "/static/media/blog-thumbnail-nine.622d6832ab47888400b6.png",
-    "static/media/blog-thumbnail-four.png": "/static/media/blog-thumbnail-four.3dba0f2507af29574ec7.png",
     "static/media/team-two.png": "/static/media/team-two.a5bd7fe83df9074b7dcd.png",
     "static/media/team-five.png": "/static/media/team-five.94bd70d0873e3cdb6d5b.png",
     "static/media/texgyretermes-italic.otf": "/static/media/texgyretermes-italic.a1c8c01efcbc7d7164b1.otf",
@@ -44,7 +36,6 @@
     "static/media/team-four.png": "/static/media/team-four.a6be5c8075cdeabdb472.png",
     "static/media/team-three.png": "/static/media/team-three.4d7202c7b4b59f6ac8d2.png",
     "static/media/logo.svg": "/static/media/logo.9729f49b71d5b5bd478a499ef6a01743.svg",
-    "static/media/blog-thumbnail-eight.png": "/static/media/blog-thumbnail-eight.2f62ca06636f979c05fc.png",
     "static/media/AllrounderMonumentTest-Medium.otf": "/static/media/AllrounderMonumentTest-Medium.89dd6b87ebcfc9c4f72b.otf",
     "static/media/AllrounderMonumentTest-Regular.otf": "/static/media/AllrounderMonumentTest-Regular.5ffaaa4552038c584da8.otf",
     "static/media/global-reach-local-touch-icon.svg": "/static/media/global-reach-local-touch-icon.e499e3a9d4f06cc74c2dbf49b43f191c.svg",
@@ -57,10 +48,10 @@
     "static/media/connector-icon.svg": "/static/media/connector-icon.89bf2e1237c4e266b3405fa972717ef8.svg",
     "static/media/dot-icon.svg": "/static/media/dot-icon.e4b135afb8d1bff071b28169a91222bf.svg",
     "main.3bf02c6e.css.map": "/static/css/main.3bf02c6e.css.map",
-    "main.97a298a1.js.map": "/static/js/main.97a298a1.js.map"
+    "main.50c33d07.js.map": "/static/js/main.50c33d07.js.map"
   },
   "entrypoints": [
     "static/css/main.3bf02c6e.css",
-    "static/js/main.97a298a1.js"
+    "static/js/main.50c33d07.js"
   ]
 }
