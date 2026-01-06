@@ -55,10 +55,10 @@ export const navLinks = [
 		name: "Our Team",
 		url: "/team",
 	},
-	{
-		name: "Real Estate",
-		url: "/real-estate",
-	},
+	// {
+	// 	name: "Real Estate",
+	// 	url: "/real-estate",
+	// },
 	{
 		name: "Blog",
 		url: "/blog",
