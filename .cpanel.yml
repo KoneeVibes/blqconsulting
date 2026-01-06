@@ -1,5 +1,0 @@
----
-deployment:
-  tasks:
-    - export DEPLOYPATH=/home2/blqconsu/public_html/
-    - /bin/cp -R /home2/blqconsu/repositories/blqconsulting/build/* $DEPLOYPATH
