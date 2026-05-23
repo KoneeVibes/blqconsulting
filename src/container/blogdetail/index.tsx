@@ -22,9 +22,10 @@ export const BlogDetail: React.FC<BlogDetailPropsType> = ({ content }) => {
 							? "calc(var(--basic-margin)/3)"
 							: "unset"
 					}
-				>
-					{paragraph}
-				</Typography>
+					dangerouslySetInnerHTML={{
+						__html: paragraph.replace(/\n/g, "<br />"),
+					}}
+				/>
 			))}
 		</BlogDetailWrapper>
 	);

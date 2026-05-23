@@ -4,6 +4,7 @@ import { BlogDetailPageWrapper } from "./styled";
 import { useParams } from "react-router-dom";
 import { BlogDetail } from "../../container/blogdetail";
 import { useEffect, useState } from "react";
+import DOMPurify from "dompurify";
 
 export const BlogDetailPage = () => {
 	const { id } = useParams();
@@ -25,7 +26,7 @@ export const BlogDetailPage = () => {
 							Authorization: `APIKey ${API_KEY}`,
 							"Content-Type": "application/json",
 						},
-					}
+					},
 				);
 				const res = await response.json();
 				if (!response.ok) {
@@ -39,19 +40,66 @@ export const BlogDetailPage = () => {
 		retrieveAllBlogService();
 	}, [API_KEY, PROJECT_KEY, API_ENDPOINT]);
 
+	const getPlainTextFromHtml = (html?: string | null) => {
+		if (!html) return "";
+		const doc = new DOMParser().parseFromString(html, "text/html");
+		const blockTags = new Set([
+			"P",
+			"DIV",
+			"SECTION",
+			"ARTICLE",
+			"HEADER",
+			"FOOTER",
+			"MAIN",
+			"ASIDE",
+			"H1",
+			"H2",
+			"H3",
+			"H4",
+			"H5",
+			"H6",
+			"LI",
+			"BLOCKQUOTE",
+			"IMG",
+			"BR",
+		]);
+		const parts: string[] = [];
+		const walk = (node: Node) => {
+			if (node.nodeType === Node.TEXT_NODE) {
+				const text = node.textContent?.replace(/\s+/g, " ").trim();
+				if (text) {
+					parts.push(text);
+				}
+				return;
+			}
+			if (node.nodeType !== Node.ELEMENT_NODE) return;
+			const element = node as HTMLElement;
+			element.childNodes.forEach(walk);
+			if (blockTags.has(element.tagName)) {
+				parts.push(".\t");
+			}
+		};
+		doc.body.childNodes.forEach(walk);
+		return parts
+			.join(" ")
+			.replace(/\s+\./g, ".")
+			.replace(/(?:\.\s*){2,}/g, ".\t")
+			.replace(/\s+/g, " ")
+			.trim();
+	};
+
 	return (
 		<AppLayout>
 			<BlogDetailPageWrapper>
 				{(() => {
 					const blog = (liveBlogs?.length > 0 ? liveBlogs : [])[Number(id)];
-					let firstParagraph =
-						blog?.body?.split("\n").find((p: string) => p.trim().length > 0) ||
-						"";
-					let words = firstParagraph.split(/\s+/);
-					let shortBody =
+					const plainBody = getPlainTextFromHtml(blog?.body);
+					const words = plainBody.split(/\s+/).filter(Boolean);
+					const shortBody =
 						words.length > 20
 							? words.slice(0, 20).join(" ") + "..."
-							: firstParagraph;
+							: plainBody;
+
 					return (
 						<>
 							<Hero
@@ -61,7 +109,7 @@ export const BlogDetailPage = () => {
 								body={shortBody}
 								thumbnail={blog?.thumbnail}
 							/>
-							<BlogDetail content={blog?.body} />
+							<BlogDetail content={DOMPurify.sanitize(blog?.body ?? "")} />
 						</>
 					);
 				})()}
