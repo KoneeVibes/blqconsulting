@@ -2,4 +2,5 @@
 deployment:
   tasks:
     - export DEPLOYPATH=/home2/blqconsu/public_html/
-    - /bin/cp -R /home2/blqconsu/repositories/blqconsulting/build/* $DEPLOYPATH
+    - /bin/cp -R /home2/blqconsu/repositories/blqconsulting/build/. $DEPLOYPATH
+    - /bin/cp /home2/blqconsu/repositories/blqconsulting/public/.htaccess $DEPLOYPATH/.htaccess
